@@ -1,0 +1,33 @@
+{
+  "name": "rest_api_docker_node_mongo",
+  "version": "1.0.0",
+  "description": "A Simple REST API built using node.js with mongodb for storage and running in a docker container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SurulirajBanu/rest_api_docker_node_mongo.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "docker",
+    "mongo",
+    "node"
+  ],
+  "author": "Banuchitra Suruliraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SurulirajBanu/rest_api_docker_node_mongo/issues"
+  },
+  "homepage": "https://github.com/SurulirajBanu/rest_api_docker_node_mongo#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1"
+  }
+}
