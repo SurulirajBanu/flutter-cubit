@@ -86,8 +86,15 @@
       } catch (error) { res.status(400).json({ message: error.message })}})
     
       module.exports = router;
-```
+      ```
 18. Now you can use Postman to use API and view the data in MongoDB Compass
+<img width="850" alt="Screenshot 2023-10-20 at 6 06 25 PM" src="https://github.com/SurulirajBanu/rest_api_docker_node_mongo/assets/85181631/dfc81ee7-3b0d-400c-8cb1-a7c3a3f6cd1c">
+<img width="852" alt="Screenshot 2023-10-20 at 6 07 51 PM" src="https://github.com/SurulirajBanu/rest_api_docker_node_mongo/assets/85181631/fcb3ab1a-a9d4-41a0-94ee-da863e4d91e2">
+<img width="1435" alt="Screenshot 2023-10-20 at 6 08 07 PM" src="https://github.com/SurulirajBanu/rest_api_docker_node_mongo/assets/85181631/f6a19585-007b-46c3-879e-ae580fbb6d9e">
+<img width="860" alt="Screenshot 2023-10-20 at 6 10 43 PM" src="https://github.com/SurulirajBanu/rest_api_docker_node_mongo/assets/85181631/f2837bea-1809-470b-91f0-bcdbfd489ac5">
+<img width="854" alt="Screenshot 2023-10-20 at 6 11 55 PM" src="https://github.com/SurulirajBanu/rest_api_docker_node_mongo/assets/85181631/0047035c-fd7d-4c51-9043-6312ef60dfa1">
+<img width="847" alt="Screenshot 2023-10-20 at 6 12 28 PM" src="https://github.com/SurulirajBanu/rest_api_docker_node_mongo/assets/85181631/99d60de7-cc58-4abe-833f-5978c4b40a30">
+
 
 
 
